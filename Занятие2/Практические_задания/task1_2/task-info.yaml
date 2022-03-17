@@ -1,0 +1,39 @@
+type: output
+files:
+- name: tests/output.txt
+  visible: false
+  text: |
+    True
+  learner_created: false
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 9
+    length: 3
+    placeholder_text: '...'
+    initial_state:
+      length: 3
+      offset: 9
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: <
+  - offset: 16
+    length: 73
+    placeholder_text: '  # TODO Вставьте любой оператор сравнения, чтобы выражение
+      было истинным'
+    initial_state:
+      length: 73
+      offset: 16
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: '  # TODO'
+  text: |
+    print(20 ... 30)  # TODO Вставьте любой оператор сравнения, чтобы выражение было истинным
+  learner_created: false
+- name: __init__.py
+  visible: false
+  learner_created: false
+status: Unchecked
+record: -1

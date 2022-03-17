@@ -1,0 +1,28 @@
+type: output
+files:
+- name: __init__.py
+  visible: false
+  learner_created: false
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 66
+    length: 61
+    placeholder_text: '# TODO заменить значение 5-го элемента средним арифметическим'
+    initial_state:
+      length: 61
+      offset: 66
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: '    list_numbers[4] = sum(list_numbers) / len(list_numbers)'
+  text: |
+    if __name__ == "__main__":
+        list_numbers = list(range(5, 17))
+
+    # TODO заменить значение 5-го элемента средним арифметическим
+
+        print(list_numbers)
+  learner_created: false
+status: Unchecked
+record: -1
