@@ -8,4 +8,5 @@ elif mount in (9, 10, 11):
     print("Осень")
 elif mount in {12, 1, 2}:
     print("Зима")
-# TODO добавить блок else и выдавать пользователю любое предупреждение о том, что месяц указан неверно
+else:
+    print("Wrong month")

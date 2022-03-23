@@ -28,3 +28,5 @@ if __name__ == "__main__":
     ]
 
     # TODO распечатать фамилии и их номера
+    for i, val in enumerate(surname_list, start=1):
+        print(i, val)

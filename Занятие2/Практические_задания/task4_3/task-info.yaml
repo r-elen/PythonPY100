@@ -41,24 +41,24 @@ files:
   visible: true
   placeholders:
   - offset: 107
-    length: 59
+    length: 88
     placeholder_text: '...:  # TODO как за один раз получать пару индекс-значение?'
     initial_state:
       length: 59
       offset: 107
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: 'enumerate(rus_alphabet, start=1):'
-  - offset: 181
-    length: 54
+  - offset: 210
+    length: 56
     placeholder_text: '..., value)  # TODO как тогда должен выглядеть индекс?'
     initial_state:
       length: 54
       offset: 181
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: index, value)
   text: |
     if __name__ == "__main__":
@@ -70,5 +70,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 23 Mar 2022 16:21:20 UTC
 record: -1

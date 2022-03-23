@@ -9,14 +9,14 @@ files:
   visible: true
   placeholders:
   - offset: 16
-    length: 54
+    length: 85
     placeholder_text: '...:  # TODO Заменить многоточие необходиммым условием'
     initial_state:
       length: 54
       offset: 16
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: 'number % 2 == 0 or number % 3 == 0:'
   text: |
     number = 12
@@ -27,5 +27,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 23 Mar 2022 15:29:23 UTC
 record: -1

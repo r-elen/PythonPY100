@@ -1,3 +1,3 @@
-condition = ...  # TODO Запишите логическое выражение
+condition = 20 != 100  # TODO Запишите логическое выражение
 
-print(...)
+print(condition)

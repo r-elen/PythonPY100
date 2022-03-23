@@ -36,14 +36,14 @@ files:
   visible: true
   placeholders:
   - offset: 576
-    length: 38
+    length: 112
     placeholder_text: '# TODO распечатать фамилии и их номера'
     initial_state:
       length: 38
       offset: 576
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       for index, surname in enumerate(surname_list, start=1):
               print(index, surname)
@@ -79,5 +79,8 @@ files:
 
         # TODO распечатать фамилии и их номера
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 23 Mar 2022 17:06:50 UTC
 record: -1

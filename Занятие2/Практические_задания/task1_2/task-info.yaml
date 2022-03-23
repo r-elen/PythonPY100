@@ -9,16 +9,16 @@ files:
   visible: true
   placeholders:
   - offset: 9
-    length: 3
+    length: 1
     placeholder_text: '...'
     initial_state:
       length: 3
       offset: 9
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: <
-  - offset: 16
+  - offset: 14
     length: 73
     placeholder_text: '  # TODO Вставьте любой оператор сравнения, чтобы выражение
       было истинным'
@@ -27,7 +27,7 @@ files:
       offset: 16
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: '  # TODO'
   text: |
     print(20 ... 30)  # TODO Вставьте любой оператор сравнения, чтобы выражение было истинным
@@ -35,5 +35,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 23 Mar 2022 15:17:01 UTC
 record: -1

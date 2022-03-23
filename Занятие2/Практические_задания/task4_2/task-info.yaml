@@ -9,45 +9,45 @@ files:
   visible: true
   placeholders:
   - offset: 162
-    length: 68
+    length: 65
     placeholder_text: '...  # TODO чему равен индекс предполагаемого минимального
       элемента?'
     initial_state:
       length: 68
       offset: 162
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: 0
-  - offset: 284
-    length: 39
+  - offset: 281
+    length: 53
     placeholder_text: '...:  # TODO как перебрать все индексы?'
     initial_state:
       length: 39
       offset: 284
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: 'range(len(list_)):'
-  - offset: 348
-    length: 52
+  - offset: 359
+    length: 57
     placeholder_text: '...  # TODO как получить текущий элемент по индексу?'
     initial_state:
       length: 52
       offset: 348
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: list_[i]
-  - offset: 412
-    length: 41
+  - offset: 428
+    length: 64
     placeholder_text: '...:  # TODO  какое сравнение используем?'
     initial_state:
       length: 41
       offset: 412
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: 'current_value <= min_value:'
   text: |
     if __name__ == "__main__":
@@ -68,5 +68,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 23 Mar 2022 16:14:08 UTC
 record: -1
