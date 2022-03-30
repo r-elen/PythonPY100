@@ -1,5 +1,13 @@
 def check_string(str_):
-    ...  # TODO проверить что в строку входят только символы 1 и 0
+    # TODO проверить что в строку входят только символы 1 и 0
+    if not str_:
+        return False
+    possible_digits = ['0', '1']
+    for i in str_:
+        if i not in possible_digits:
+            return False
+
+    return True
 
 
 if __name__ == "__main__":

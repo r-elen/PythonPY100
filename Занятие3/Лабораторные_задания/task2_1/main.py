@@ -1,5 +1,9 @@
 def task(str1: str, str2: str, k: int):
-    ...  # TODO проверка совпадения строк
+    # проверка совпадения строк
+    if str1[:k] == str2[:k]:
+        print('Да')
+    else:
+        print('Нет')
 
 
 if __name__ == "__main__":
