@@ -10,15 +10,15 @@ files:
   visible: true
   placeholders:
   - offset: 32
-    length: 74
+    length: 112
     placeholder_text: '...  # TODO какая есть отличительная особенность, при повторяющихся
       числах'
     initial_state:
       length: 74
       offset: 32
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       list_digits = [int(digit) for digit in str(num)]
           return False if len(set(list_digits)) == len(list_digits) else True
@@ -34,5 +34,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 06 Apr 2022 17:59:25 UTC
 record: -1

@@ -1,5 +1,6 @@
 def task(num: int) -> bool:
-    ...  # TODO какая есть особенность, когда все цифры в числе одинаковые?
+    list_digits = [int(d) for d in str(num)]
+    return True if len(set(list_digits)) == 1 else False
 
 
 if __name__ == "__main__":

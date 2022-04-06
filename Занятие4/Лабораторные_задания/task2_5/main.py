@@ -1,7 +1,8 @@
 def is_palindrome_number(num: int) -> bool:
-    ...  # TODO проверить что число больше или равно нулю
+    if num < 0:
+        raise ValueError('Неверное число')  # TODO проверить что число больше или равно нулю
 
-    ...  # TODO проверить является ли число палиндром
+    return True if str(num) == str(num)[::-1] else False  # TODO проверить является ли число палиндром
 
 
 if __name__ == "__main__":
