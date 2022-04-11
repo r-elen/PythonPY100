@@ -25,7 +25,7 @@ def game_window():
     window.mainloop()
 
 
-def players_move():
+def player_move():
     ...
 
 
