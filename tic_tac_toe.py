@@ -6,15 +6,23 @@ second_player = 'O'
 
 
 def game_window():
-    root = tk.Tk()
-    root.title("Крестики нолики")
+    window = tk.Tk()  # создаем основное окно
+    window.title("Крестики нолики")
+    window.geometry('300x200')
 
-    fra = tk.Frame(root, width=400, height=300)
-    but = tk.Button(root, text='Начать новую игру')
+    # frame = tk.Frame(root,)
+    # but = tk.Button(root, text='Начать новую игру')
+    # frame.pack()
+    # but.pack(padx=5, pady=5)
 
-    fra.pack()
-    but.pack()
-    root.mainloop()
+    for i in range(3):
+        for j in range(3):
+            field_frame = tk.Frame(window, bd=1)
+            field_frame.grid(row=i, column=j, padx=3, pady=3)
+            label = tk.Button(field_frame, text=f"({i}, {j})")
+            label.pack()
+
+    window.mainloop()
 
 
 def players_move():
