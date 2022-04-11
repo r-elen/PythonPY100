@@ -8,9 +8,11 @@ def main():
     print_field(field)
 
     current_player, next_player = FIRST_PLAYER, SECOND_PLAYER
+    dict_players = {FIRST_PLAYER: player_step, SECOND_PLAYER: enemy_step}
 
     while True:
-        player_step(field, current_player)
+        cur_players_func = dict_players[current_player]
+        cur_players_func(field, current_player)
         print_field(field)
         if is_win(field):
             print_win_message(current_player)
@@ -19,14 +21,7 @@ def main():
             print_draw_message()
             break
 
-        enemy_step(field, next_player)
-        print_field(field)
-        if is_win(field):
-            print_win_message(next_player)
-            break
-        if not has_empty_cell(field):
-            print_draw_message()
-            break
+        current_player, next_player = next_player, current_player
 
 
 def print_field(field: list[list]) -> None:

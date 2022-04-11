@@ -56,9 +56,9 @@ def set_cell(field: list[list], row_index: int, col_index: int, player_symbol) -
 
 
 def test_empty_field(field):
-    empty_field = field
+    empty_field = init_field()
     assert is_win(empty_field) == False
 
 
 if __name__ == '__main__':
-    test_empty_field(init_field())
+    test_empty_field()
