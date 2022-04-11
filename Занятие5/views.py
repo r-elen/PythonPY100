@@ -1,9 +1,6 @@
 # views
 from models import init_field, is_win, has_empty_cell, is_empty_cell, set_cell
-from models import EMPTY_SYMBOL, SIZE_FIELD
-
-FIRST_PLAYER = 'X'
-SECOND_PLAYER = 'O'
+from conf import EMPTY_SYMBOL, SIZE_FIELD, FIRST_PLAYER, SECOND_PLAYER
 
 
 def main():

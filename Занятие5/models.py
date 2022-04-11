@@ -1,5 +1,5 @@
-EMPTY_SYMBOL = "-"
-SIZE_FIELD = 3
+# models
+from conf import EMPTY_SYMBOL, SIZE_FIELD
 
 
 def init_field(size: int = SIZE_FIELD) -> list[list]:
